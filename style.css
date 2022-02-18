@@ -1,0 +1,377 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #ffffff;
+    background-color: #011627;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* navnar başlangıç */
+.menu-bar{
+    background: #3b7266;
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.menu-bar ul li{
+    width: 150px;
+    margin:15px;
+    padding: 15px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.active, .menu-bar ul li:hover{
+    background: rgb(51, 59, 65);
+    border-radius: 10px;
+}
+/* ------------------------------------------------------------------------------------------------------*/
+/* slider başlangıç */
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    ;
+}
+/* slider başlangıç */
+.resimSlider {
+    height: 422px;
+    max-height: 500px;  
+}
+/* slider bitiş */
+/* ------------------------------------------------------------------------------------------------------*/
+/* footer başlangıç */
+.footer {
+    padding: 70px;
+    background-color: #3b7266;
+    text-align: center;
+    width: 100%;
+
+    position: relative;
+    bottom: 0;
+    
+    height: 30%;
+    white-space: nowrap;
+    line-height: 2px; /* Vertically center the text there */
+  }
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+.footer .social a{
+    font-size: 24px;
+    color:inherit;
+    border: 1px solid wheat;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius:50%;
+    margin:0 8px;
+    opacity:0.75;
+}
+.footer .social a:hover{
+    opacity: 0.9;
+}
+.footer ul{
+    margin-top:0;
+    padding:0;
+    list-style:none;
+    font-size:18px;
+    line-height: 1.6;
+    margin-bottom:0;
+}
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity:0.8;
+}
+.footer ul li{
+    display:inline-block;
+    padding:0 15px;
+    text-align: center;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+}
+.footer .copyright{
+    margin-top: 25px;
+    text-align: center;
+    font-size:13px;
+    color:white;
+}
+/*footer bitiş */
+/* ------------------------------------------------------------------------------------------------------*/
+/*  yazılar başlangıç */
+.container h2{
+    text-align: center;
+    font-family: 'Dancing Script', cursive
+}
+.container h4{
+    text-align: center;
+    font-family: 'Dancing Script', cursive 
+}
+.container1 h2,h3,h4,p {
+    width: 900px;
+    margin: auto;
+    text-align: justify;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather', serif; 
+}
+.container .sol1{
+    width: 900px;
+    margin: auto;
+    text-align: justify;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather', serif;
+    padding-top: 3%;
+}
+.sol{
+    float: left;
+    padding: 0 30px 10px;
+    padding-top: 2%;
+}
+/* yazılar bitiş */
+/* ------------------------------------------------------------------------------------------------------*/
+/* GALERİ CSS BAŞLANGIÇ */
+.galResim{
+    width: 23.2%;
+    height: 400px;
+    border-radius: 5px;
+    opacity: 0.8;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin: 10px;
+    transition: all 0.6s ;
+    padding-left: center;
+}
+.gal{
+    padding-left: center;
+    padding-top: 4%;
+    padding-bottom : 4%;
+}
+.gal h1{
+    text-align: center;
+    font-family: 'Merriweather', serif; 
+    background-color: #3b7266;
+    color: white;
+    height:60px;
+    line-height: 60px;
+    margin:0 10px;
+    border-radius:10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+}
+.galResim:hover{
+    opacity: 1;
+}
+/* GALERİ CSS BİTİŞ */
+/* ------------------------------------------------------------------------------------------------------*/
+/* İLETİŞİM CSS BAŞLANGIÇ */
+#iletisim{
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;   
+}
+.title{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    background-color: #3b7266;
+    padding: 5px;
+    color:#ffffff;
+    border-radius: 5px;
+    opacity: 0.8;
+    margin: 10px;
+    transition: all 0.6s ;
+}
+.contact-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5e6e0;
+    border-radius: 5px;
+}
+.contact-area1{
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #c5e6e0;
+    border-radius: 5px;
+}
+.cont-left{
+    width: 40%;
+    padding: 3rem;
+}
+.cont-left1{
+    width: 40%;
+    padding: 3rem;
+}
+.cont-top{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #3b7266;
+}
+.cont-top1{
+    padding-bottom: 5rem;
+    border-bottom: 2px solid #3b7266;
+}
+
+.cont-element{
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.cont-element1{
+    margin: 0.5rem 0;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.cont-element1 p{
+    font-family: 'Oswald', sans-serif;
+}
+.cont-element1 h4{
+    font-family: 'Oswald', sans-serif;
+}
+.cont-element i{
+    color: #3b7266;
+    padding: 0.7rem;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: all 0.4s ease;
+}
+.cont-element:hover i{
+    background-color: #ffffff;
+    color: #011627;
+}
+.cont-element a{
+    color: #000000;
+    text-decoration: none;
+}
+.cont-bottom{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cont-bottom a{
+    color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #181818;
+    border-radius: 50%;
+}
+
+/* ------------------------------------------------------------------------------------------------------BAK CONT-BOTTOM1A*/
+.cont-bottom a:hover{
+    color: #181818;
+    background-color: #ffffff;
+}
+
+.cont-right{
+    width: 60%;
+    padding: 3rem;
+}
+.cont-right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont-right form input, textarea, button{
+    width: 100%;
+    margin: 1rem 0;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #000000;
+    color: #000000; 
+    transition: all 0.4s ease;
+}
+.cont-right form button{
+    background-color: #c5e6e0;
+    color: #27465f;
+    cursor: pointer;
+    
+}
+.cont-right form button:hover{
+    background-color: #011627;
+    color: #ffffff;
+}
+.cont-right form input:hover, textarea:hover{
+    color: #011627;
+    background-color: #ffffff;
+}
+.cont-right form input:focus, textarea:focus{
+    color: #011627;
+    background-color: #ffffff;
+}
+/* ------------------------------------------------------------------------------------------------------*/
+
+main{
+  
+    height: auto;
+    width: 80%;
+    padding: 10px;
+    
+    margin:0 auto /* Bu kısım float lefti kaldırıp eklendkten sonra merkezleme işlemini yaptı.*/
+}
+.icerik{
+    width: 28%;
+    height: auto;
+    display: inline-block;
+    margin-right: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.resim{
+    width: 100%;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    transition: opacity 0.8s;
+}
+.resim:hover{
+    opacity: 0.6;
+}
+h5{
+    margin:10px;
+    color:dimgray;
+}
+.icerikText{
+    margin:10px;
+    color:dimgray;
+}
+.btndevam:link{
+    display: block;
+    width: 150px;
+    height: 45px;
+    padding: 10px 20px;
+    background-color: #709ebd;
+    text-decoration: none;
+    margin:15px;
+    border-radius: 10px;
+
+}
+.btndevam:hover{
+    opacity: 0.8;
+}
